@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest
+    versionCode="1.0"
+    versionName="Project 1.0"
+>
+
+    <application name="Home_Index" method="get"><url><link>/</link><link>/index.php</link></url></application>
+    <application name="LanguageJavascript_Index" method="get"><url><link>/language-js</link></url></application>
+
+</manifest>

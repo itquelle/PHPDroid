@@ -1,0 +1,31 @@
+// Plugin Import
+@import "plugins/semantic/message.css";
+@import "plugins/semantic/button.css";
+@import "plugins/semantic/icon.css";
+
+@mixin truncate(){
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+@mixin textBreak($mode: 'all'){
+  @if $mode == 'all' {
+    word-break: break-all;
+  } @else {
+    word-break: normal;
+  }
+}
+@mixin border-radius($options){
+  -webkit-border-radius:$options;
+  -moz-border-radius:$options;
+  border-radius:$options;
+}
+@mixin box-shadow($options){
+  -webkit-box-shadow: $options;
+  -moz-box-shadow: $options;
+  box-shadow: $options;
+}
+
+.ChartLayout{ display: inline-block; overflow: hidden !important; }
+@keyframes swipe{from{transform:translateX(-100%);}to{transform:translateX(100%);}}
+.chart-filter{animation:swipe 1.5s linear infinite forwards;}

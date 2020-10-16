@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+
+Disallow: /app/controller/
+Disallow: /app/modal/
+Disallow: /java/
+Disallow: /manifest/

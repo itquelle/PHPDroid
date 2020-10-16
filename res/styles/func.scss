@@ -1,0 +1,22 @@
+@mixin truncate(){
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+@mixin textBreak($mode: 'all'){
+  @if $mode == 'all' {
+    word-break: break-all;
+  } @else {
+    word-break: normal;
+  }
+}
+@mixin border-radius($options){
+  -webkit-border-radius:$options;
+  -moz-border-radius:$options;
+  border-radius:$options;
+}
+@mixin box-shadow($options){
+  -webkit-box-shadow: $options;
+  -moz-box-shadow: $options;
+  box-shadow: $options;
+}

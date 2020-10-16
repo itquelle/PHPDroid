@@ -1,0 +1,379 @@
+.btn--block {
+  display:block
+}
+.btn--block + .btn--block {
+  margin-left:0
+}
+.btn {
+  display:inline-block;
+  position:relative;
+  margin:5px 0;
+  padding:10px 31px 11px;
+  cursor:pointer;
+  outline:0;
+  border:none;
+  border-radius:22px;
+  background:transparent;
+  transition:background .2s,color .2s;
+  text-align:center;
+  text-decoration:none;
+  font:1.286em/1.1667 'Open Sans',sans-serif;
+  font:{
+    weight: 600;
+  }
+  -webkit-font-smoothing:antialiased;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}
+.btn:before {
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  border-radius:22px;
+  transition:border .1s ease-in-out
+}
+.btn + .btn {
+  margin-left:7px
+}
+.btn .b-link {
+  border-radius:inherit
+}
+.btn.tooltip-no-js-wrap:hover > .tooltip {
+  display:none !important
+}
+.btn:disabled > .tooltip,.btn.disabled > .tooltip {
+  display:block
+}
+.btn--static .b-link {
+  top:-1000px;
+  right:-1000px;
+  bottom:-1000px;
+  left:-1000px
+}
+.btn--xsm {
+  padding:3px 15px 4px;
+  border-radius:12px;
+  font-size:.929em;
+  line-height:1.308
+}
+.btn--xsm:before {
+  border-radius:11px
+}
+.btn--sm {
+  padding:7px 18px 6px;
+  border-radius:16px;
+  font-size:1em;
+  line-height:1.3572
+}
+.btn--sm:before {
+  border-radius:16px
+}
+.btn,.btn:hover {
+  color:#fff
+}
+.btn > .icon-svg,.btn > .icon:hover,.btn > .icon-svg:hover {
+  color:inherit
+}
+.btn--red {
+  background:#f02139
+}
+.btn--red:hover,.btn--red:focus {
+  background:#f02139 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--red:active,.btn--red.active {
+  background:#f02139 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--orange {
+  background:#ff8200
+}
+.btn--orange:hover,.btn--orange:focus {
+  background:#f02139 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--orange:active,.btn--orange.active {
+  background:#f02139 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--dorange {
+  background:#ef5322
+}
+.btn--dorange:hover,.btn--dorange:focus {
+  background:#ef5322 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--dorange:active,.btn--dorange.active {
+  background:#ef5322 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--yellow {
+  background:#fec309
+}
+.btn--yellow:hover,.btn--yellow:focus {
+  background:#fec309 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--yellow:active,.btn--yellow.active {
+  background:#fec309 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--grass {
+  background:#86c313
+}
+.btn--grass:hover,.btn--grass:focus {
+  background:#86c313 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--grass:active,.btn--grass.active {
+  background:#86c313 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--lime {
+  background:#29cf29
+}
+.btn--lime:hover,.btn--lime:focus {
+  background:#29cf29 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--lime:active,.btn--lime.active {
+  background:#29cf29 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--green {
+  background:#1ac636
+}
+.btn--green:hover,.btn--green:focus {
+  background:#1ac636 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--green:active,.btn--green.active {
+  background:#1ac636 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--aqua {
+  background:#00caa8
+}
+.btn--aqua:hover,.btn--aqua:focus {
+  background:#00caa8 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--aqua:active,.btn--aqua.active {
+  background:#00caa8 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--sky {
+  background:#28c4f6
+}
+.btn--sky:hover,.btn--sky:focus {
+  background:#28c4f6 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--sky:active,.btn--sky.active {
+  background:#28c4f6 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--dsky {
+  background:#1eb2fc
+}
+.btn--dsky:hover,.btn--dsky:focus {
+  background:#1eb2fc linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--dsky:active,.btn--dsky.active {
+  background:#1eb2fc linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--lblue {
+  background:#2b8cfc
+}
+.btn--lblue:hover,.btn--lblue:focus {
+  background:#2b8cfc linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--lblue:active,.btn--lblue.active {
+  background:#2b8cfc linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--blue {
+  background:#2b65f8
+}
+.btn--blue:hover,.btn--blue:focus {
+  background:#2b65f8 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--blue:active,.btn--blue.active,.btn--blue.loading {
+  background:#2b65f8 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--dgrey {
+  background:#9aa9c5
+}
+.btn--dgrey:hover,.btn--dgrey:focus {
+  background:#9aa9c5 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--dgrey:active,.btn--dgrey.active {
+  background:#9aa9c5 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--pink {
+  background:#f55280
+}
+.btn--pink:hover,.btn--pink:focus {
+  background:#f55280 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--pink:active,.btn--pink.active {
+  background:#f55280 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--laguna {
+  background:#2f75c1
+}
+.btn--laguna:hover,.btn--laguna:focus {
+  background:#2f75c1 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--laguna:active,.btn--laguna.active {
+  background:#2f75c1 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--vdgrey {
+  background:#333844
+}
+.btn--vdgrey:hover,.btn--vdgrey:focus {
+  background:#333844 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--vdgrey:active,.btn--vdgrey.active {
+  background:#333844 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--aqua-blue {
+  background:#08b5fd
+}
+.btn--aqua-blue:focus,.btn--aqua-blue:hover {
+  background:#069fde
+}
+.btn--aqua-blue:active,.btn--aqua-blue.active {
+  background:#0487bd
+}
+.btn--facebook {
+  background:#3464d4
+}
+.btn--facebook:hover,.btn--facebook:focus {
+  background:#3464d4 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--facebook:active,.btn--facebook.active {
+  background:#3464d4 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--twitter {
+  background:#1cacff
+}
+.btn--twitter:hover,.btn--twitter:focus {
+  background:#1cacff linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--twitter:active,.btn--twitter.active {
+  background:#1cacff linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--google {
+  background:#dd4b39
+}
+.btn--google:hover,.btn--google:focus {
+  background:#dd4b39 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--google:active,.btn--google.active {
+  background:#dd4b39 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--instagram {
+  background:#3674a9
+}
+.btn--instagram:hover,.btn--instagram:focus {
+  background:#3674a9 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--instagram:active,.btn--instagram.active {
+  background:#3674a9 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--linkedin {
+  background:#006799
+}
+.btn--linkedin:hover,.btn--linkedin:focus {
+  background:#006799 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--linkedin:active,.btn--linkedin.active {
+  background:#006799 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--vk {
+  background:#2c70b4
+}
+.btn--vk:hover,.btn--vk:focus {
+  background:#2c70b4 linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--vk:active,.btn--vk.active {
+  background:#2c70b4 linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--odnoklassniki {
+  background:#f7882b
+}
+.btn--odnoklassniki:hover,.btn--odnoklassniki:focus {
+  background:#f7882b linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--odnoklassniki:active,.btn--odnoklassniki.active {
+  background:#f7882b linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--yandex {
+  background:#ee3a2e
+}
+.btn--yandex:hover,.btn--yandex:focus {
+  background:#ee3a2e linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))
+}
+.btn--yandex:active,.btn--yandex.active {
+  background:#ee3a2e linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))
+}
+.btn--transparent {
+  background:rgba(0,0,0,.5)
+}
+.btn--transparent > .ico,.btn--transparent > .icon-svg {
+  opacity:.8
+}
+.btn--transparent:hover,.btn--transparent:focus {
+  background:rgba(0,0,0,.7)
+}
+.btn--transparent:hover > .ico,.btn--transparent:focus > .ico,.btn--transparent.active > .ico,.btn--transparent:hover > .icon-svg,.btn--transparent:focus > .icon-svg,.btn--transparent.active > .icon-svg {
+  opacity:1
+}
+.btn--transparent:active {
+  background:rgba(0,0,0,.9)
+}
+.btn--glass:before {
+  content:'';
+  border:2px solid rgba(255,255,255,.3)
+}
+.btn--glass:hover:before {
+  border-color:#fff
+}
+.btn--glass:active:before,.btn--glass.active:before {
+  border-color:rgba(255,255,255,.3)
+}
+.btn--white {
+  background:#fff;
+  color:#4d4d4d
+}
+.btn--white:before {
+  content:'';
+  border:1px solid rgba(0,0,0,.1)
+}
+.btn--white:hover,.btn--white:focus {
+  color:#2b65f8
+}
+.btn--white:hover:before,.btn--white:focus:before {
+  border-width:2px;
+  border-color:#2b65f8
+}
+.btn--white:active,.btn--white.active,.btn--white.loading {
+  color:#2058c6
+}
+.btn--white:active:before,.btn--white.active:before,.btn--white.loading:before {
+  border-width:2px;
+  border-color:#2058c6
+}
+.btn--gold {
+  background:#fff;
+  color:#4d4d4d
+}
+.btn--gold:before {
+  content:'';
+  border:1px solid rgba(0,0,0,.1)
+}
+.btn--gold:hover:before,.btn--gold:focus:before {
+  border-width:2px;
+  border-color:#fec309
+}
+.btn--gold:active,.btn--gold.active,.btn--gold.loading {
+  background:#fec309
+}
+.btn--gold:active:before,.btn--gold.active:before,.btn--gold.loading:before {
+  border:none
+}
+.btn--gold.active:hover {
+  background:#e4af08
+}
+.btn-normal{
+  &:before{
+    @include border-radius(6px !important);
+  }
+  @include border-radius(6px !important);
+}

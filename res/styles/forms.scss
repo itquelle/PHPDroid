@@ -1,0 +1,203 @@
+// Select
+select {
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  width: 100%;
+  transition: all 0.2s ease;
+  padding: {
+    top: 8px;
+    right: 35px;
+    bottom: 8px;
+    left: 10px
+  }
+  font:{
+    weight: 500;
+    size: 13px;
+  }
+  border: 1px solid rgba(0, 0, 0, .15);
+  height: 38px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../drawable/icons8_triangular_arrow_down_20px_1.png) right 10px center no-repeat #fff;
+  background-size: 20px;
+}
+select:focus{
+  border: 1px solid #0A84FF;
+  box-shadow:
+          rgba(0, 0, 0, 0) 0px 0px 0px 0px
+          , rgba(#0A84FF, 0.6) 0px 0px 0px 4px
+          , rgba(0, 0, 0, 0.12) 0px 1px 1px 0px
+          , rgba(60, 66, 87, 0.16) 0px 0px 0px 1px
+          , rgba(0, 0, 0, 0) 0px 0px 0px 0px
+          , rgba(0, 0, 0, 0) 0px 3px 9px 0px
+          , rgba(60, 66, 87, 0.12) 0px 2px 5px 0px;
+}
+select:hover {
+  border: 1px solid #0A84FF;
+  box-shadow:
+          rgba(0, 0, 0, 0) 0px 0px 0px 0px
+          , rgba(#0A84FF, 0.6) 0px 0px 0px 4px
+          , rgba(0, 0, 0, 0.12) 0px 1px 1px 0px
+          , rgba(60, 66, 87, 0.16) 0px 0px 0px 1px
+          , rgba(0, 0, 0, 0) 0px 0px 0px 0px
+          , rgba(0, 0, 0, 0) 0px 3px 9px 0px
+          , rgba(60, 66, 87, 0.12) 0px 2px 5px 0px;
+}
+
+select::-ms-expand {
+  display: none; }
+
+@media screen and (min-width: 0\0 ) {
+  select {
+    background: none\9;
+    padding: 5px\9; } }
+
+// Text
+input[type=text],
+input[type=password],
+input[type=email],
+textarea
+{
+  &.SelectorRight{
+    @include border-radius(6px 0 0 6px);
+  }
+  border: 1px solid rgba(0, 0, 0, .15);
+  font:{
+    size: 14px;
+  }
+  @include border-radius(6px);
+  padding: 8.5px 14px;
+  transition: all 0.2s ease;
+  &:hover, &:focus{
+    border: 1px solid #0A84FF;
+    box-shadow:
+            rgba(0, 0, 0, 0) 0px 0px 0px 0px
+            , rgba(#0A84FF, 0.6) 0px 0px 0px 4px
+            , rgba(0, 0, 0, 0.12) 0px 1px 1px 0px
+            , rgba(60, 66, 87, 0.16) 0px 0px 0px 1px
+            , rgba(0, 0, 0, 0) 0px 0px 0px 0px
+            , rgba(0, 0, 0, 0) 0px 3px 9px 0px
+            , rgba(60, 66, 87, 0.12) 0px 2px 5px 0px;
+  }
+}
+
+// Checkbox
+// Radio
+input[type=checkbox].r_checkbox {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height:1px;
+  width:1px;
+  margin:-1px;
+  padding:0;
+  border:0;
+  transition: all 0.2s ease;
+}
+
+input[type=checkbox].r_checkbox + label.label {
+  padding-left:35px;
+  transition: all 0.2s ease;
+  display:inline-block;
+  background-repeat:no-repeat;
+  background-position: 0 0;
+  font-size:15px;
+  vertical-align:middle;
+  cursor:pointer;
+  margin:2px;
+  line-height:24px;
+  height:24px;
+}
+
+input[type=checkbox].r_checkbox:hover + label.label { background-position: 0 -24px; }
+input[type=checkbox].r_checkbox:checked + label.label { background-position: 0 -48px; }
+
+.label{ background-position:0 0px; }
+.label-blue{ background-image:url(../drawable/checkbox.png); }
+
+input[type=radio].r_radio{ width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); position:absolute; margin:-1px; padding:0; border:0; }
+input[type=radio].r_radio + label.label{ transition: all 0.2s ease; padding-left:35px; display:inline-block; background-repeat:no-repeat; background-position:0 0; font-size:15px; vertical-align:middle; cursor:pointer; margin:2px; line-height:24px; height:24px;}
+input[type=radio].r_radio:hover + label.label { background-position: 0 -24px; }
+input[type=radio].r_radio:checked + label.label { background-position: 0 -48px; }
+
+// Multi Selector
+.InputMultiSelector{
+  float:left;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  input[type=text]{
+    background: url(../drawable/icons8_triangular_arrow_down_20px_1.png) right 10px center no-repeat #fff;
+    background-size: 20px;
+  }
+  .InputMultiSelectorList{
+    position: absolute;
+    left: 0;
+    min-width: 250px;
+    max-width: 400px;
+    display: none;
+
+    .arrow_box {
+      float:left;
+      width: 100%;
+      padding: 10px 0;
+      position: relative;
+      background: #fff;
+      @include border-radius(6px);
+      border: 1px solid #ccc;
+      .option{
+        label{
+          @include truncate();
+          font:{
+            size: 14px;
+          }
+        }
+        float:left;
+        width: 100%;
+        padding: 5px 20px;
+        font:{
+          size: 14px;
+        }
+        &:hover{
+          background: #f2f2f2;
+        }
+      }
+      .optgroup{
+        float: left;
+        width: 100%;
+        padding: 5px 20px;
+        font:{
+          weight: 600;
+          size: 11px;
+        }
+      }
+
+    }
+    .arrow_box:after, .arrow_box:before {
+      bottom: 100%;
+      left: 12%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+    }
+
+    .arrow_box:after {
+      border-color: rgba(255, 255, 255, 0);
+      border-bottom-color: #fff;
+      border-width: 10px;
+      margin-left: -10px;
+    }
+    .arrow_box:before {
+      border-color: rgba(204, 204, 204, 0);
+      border-bottom-color: #ccc;
+      border-width: 11px;
+      margin-left: -11px;
+    }
+
+  }
+}

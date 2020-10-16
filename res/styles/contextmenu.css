@@ -1,0 +1,79 @@
+#contextmenu {
+  position: fixed;
+  left: 40%;
+  top: 20%;
+  background-color: #fafafa;
+  padding: 4pt;
+  font-size: 10pt;
+  z-index: 1000;
+  box-shadow: 0 0 12pt rgba(0, 0, 0, 0.25);
+  border-radius: 4pt;
+  padding: 0.5em 0 0.5em 0;
+  display: block; }
+
+#contextmenu hr {
+  border: none;
+  border-bottom: 1px solid #eee; }
+
+#contextmenu a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding: 0.5em 2em 0.5em 0.75em;
+  max-width: 18em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+#contextmenu a:hover {
+  background-color: #333;
+  color: #fff; }
+
+#contextmenu a::before {
+  content: '';
+  float: left;
+  margin-right: 0.75em;
+  width: 0.5em;
+  height: 1em;
+  display: inline-block; }
+
+#contextmenu a.ticked::before {
+  content: '\2713'; }
+
+#contextmenu a.unticked::before {
+  content: '\2610'; }
+
+/* Animatinons */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1.0; } }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1.0; } }
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1.0; }
+  to {
+    opacity: 0.0; } }
+@keyframes fadeOut {
+  from {
+    opacity: 1.0; }
+  to {
+    opacity: 0.0; } }
+.is-fadingIn {
+  -webkit-animation: fadeIn 0.1s ease-out;
+  animation: fadeIn 0.1s ease-out;
+  opacity: 1.0;
+  display: block; }
+
+.is-fadingOut {
+  -webkit-animation: fadeOut 0.1s ease-out;
+  animation: fadeOut 0.1s ease-out;
+  opacity: 0.0;
+  display: block; }
+
+/*# sourceMappingURL=contextmenu.css.map */

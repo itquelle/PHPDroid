@@ -1,0 +1,25 @@
+@import 'font';
+@import 'function';
+@import 'colors';
+@import 'button';
+@import 'forms';
+@import 'icons';
+@import 'toast';
+@import 'contextmenu';
+
+b{
+  font:{
+    weight: 700;
+  }
+}
+
+// Template
+body{
+  background: #fff;
+}
+
+section{
+  &.Layout{
+    border: 0;
+  }
+}

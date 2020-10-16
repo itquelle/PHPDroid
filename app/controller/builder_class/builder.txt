@@ -1,0 +1,26 @@
+<?php
+/**
+ * Copyright (c) {Copyright}
+ */
+
+class {ClassName} implements AppCompatActivity{
+
+    private function __Template(){ require("../../../res/{TemplatePage}.html"); }
+
+    use Database, SettingsController, SendMail, Language {
+        Database::__construct as public __DatabaseConstructor;
+        SettingsController::__construct as public __SettingsConstructor;
+        Language::__construct as public __LanguageService;
+    }
+
+    var $template = "{TemplatePage}";
+    var $view, $settings, $mail, $options, $event;
+
+    public function onCreate(){
+
+    }
+
+    public function __construct(...$Components){ $this->__DatabaseConstructor(); $this->__SettingsConstructor(); $this->__LanguageService(); $this->view = new ITQuelleTPL(); $this->language = $Components[1]; $this->options = $Components[2]; }
+    public function onExecute(){ $this->onCreate(); $this->view->assign($this->settings); $this->view->assign($this->ressourceString); echo $this->view->draw($this->template, $return_string = true); }
+
+}

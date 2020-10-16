@@ -1,0 +1,19 @@
+<?php
+$svg_pie_chart = '<svg class="load-state line-load-state" x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" viewBox="-100 0 712 512">
+<defs><linearGradient id="lgrad" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="0" stop-color="#ffffff" stop-opacity="0.8"></stop><stop offset="33.33%" stop-color="#ffffff" stop-opacity="0.8"></stop><stop offset="50%" stop-color="#ffffff" stop-opacity="0"></stop><stop offset="66.66%" stop-color="#ffffff" stop-opacity="0.8"></stop><stop offset="100%" stop-color="#ffffff" stop-opacity="0.8"></stop></linearGradient></defs>
+<g><path style="fill:#C3C6CF;" d="m251.009 0c-138.629 0-251.009 112.38-251.009 251.009s112.38 251.009 251.009 251.009 251.009-112.38 251.009-251.009-112.381-251.009-251.009-251.009zm14.707 29.897c110.489 7.279 199.124 95.915 206.404 206.404h-206.404zm-14.707 442.705c-122.187 0-221.594-99.406-221.594-221.594 0-117.243 91.533-213.511 206.886-221.111v221.111c0 3.901 1.55 7.641 4.308 10.399l156.326 156.326c-40.436 35.489-91.711 54.869-145.926 54.869zm166.726-75.667-131.22-131.219h185.608c-3.177 48.743-22.126 94.457-54.388 131.219z"/></g>
+<rect class="chart-filter" fill="url(#lgrad)" x="-100%" y="0" width="300%" height="100%"></rect>
+</svg>';
+$svg_line_chart = '<svg class="load-state line-load-state" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 711 325">
+<defs><linearGradient id="lgrad" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="0" stop-color="#ffffff" stop-opacity="0.8"></stop><stop offset="33.33%" stop-color="#ffffff" stop-opacity="0.8"></stop><stop offset="50%" stop-color="#ffffff" stop-opacity="0"></stop><stop offset="66.66%" stop-color="#ffffff" stop-opacity="0.8"></stop><stop offset="100%" stop-color="#ffffff" stop-opacity="0.8"></stop></linearGradient></defs>
+<path id="chart-bg" class="chart-bg" style="stroke:#C3C6CF;" d="M3.4,216.5h707.3 M3.4,160.5h707.3 M3.3,103.5h707.3 M3.3,48.5h707.6 M0.4,276.6H710H0.4z"></path>
+<polyline id="chart-line" class="chart-line" style="stroke:#C3C6CF;stroke-width:4;fill:none;" points="8.8,175.8 62.4,237.7 116.1,184.7 169.7,175.8 223.3,57 277,176.8 330.6,176.8 384.3,122.5 437.9,176.8 491.6,176.8 545.2,218.4 598.8,122.5 652.5,184.7 706.1,135.1 "></polyline>
+<rect class="chart-filter" fill="url(#lgrad)" x="-100%" y="0" width="300%" height="100%"></rect>
+</svg>';
+$svg_bar_chart = '<svg class="load-state line-load-state" x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" viewBox="-100 0 712 512">
+<defs><linearGradient id="lgrad" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="0" stop-color="#ffffff" stop-opacity="0.8"></stop><stop offset="33.33%" stop-color="#ffffff" stop-opacity="0.8"></stop><stop offset="50%" stop-color="#ffffff" stop-opacity="0"></stop><stop offset="66.66%" stop-color="#ffffff" stop-opacity="0.8"></stop><stop offset="100%" stop-color="#ffffff" stop-opacity="0.8"></stop></linearGradient></defs>
+<g><g><path style="fill:#C3C6CF;" d="M462,112h-48c-27.57,0-50,22.43-50,50v300c0,27.57,22.43,50,50,50h48c27.57,0,50-22.43,50-50V162 C512,134.43,489.57,112,462,112z M472,462c0,5.514-4.486,10-10,10h-48c-5.514,0-10-4.486-10-10V162c0-5.514,4.486-10,10-10h48 c5.514,0,10,4.486,10,10V462z"/></g></g>
+<g><g><path style="fill:#C3C6CF;" d="M98,264H50c-27.57,0-50,22.43-50,50v148c0,27.57,22.43,50,50,50h48c27.57,0,50-22.43,50-50V314 C148,286.43,125.57,264,98,264z M108,462c0,5.514-4.486,10-10,10H50c-5.514,0-10-4.486-10-10V314c0-5.514,4.486-10,10-10h48 c5.514,0,10,4.486,10,10V462z"/></g></g>
+<g><g><path style="fill:#C3C6CF;" d="M280,0h-48c-27.57,0-50,22.43-50,50v412c0,27.57,22.43,50,50,50h48c27.57,0,50-22.43,50-50V50C330,22.43,307.57,0,280,0z M290,462c0,5.514-4.486,10-10,10h-48c-5.514,0-10-4.486-10-10V50c0-5.514,4.486-10,10-10h48c5.514,0,10,4.486,10,10V462z"/></g></g>
+<rect class="chart-filter" fill="url(#lgrad)" x="-100%" y="0" width="300%" height="100%"></rect>
+</svg>';

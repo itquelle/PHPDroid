@@ -1,0 +1,25 @@
+.ic_close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3; }
+  .ic_close:hover {
+    opacity: 1; }
+
+.ic_close:before, .ic_close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333; }
+
+.ic_close:before {
+  transform: rotate(45deg); }
+
+.ic_close:after {
+  transform: rotate(-45deg); }
+
+/*# sourceMappingURL=icons.css.map */

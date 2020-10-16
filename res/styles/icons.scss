@@ -1,0 +1,24 @@
+.ic_close {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  opacity: 0.3;
+  &:hover{
+    opacity: 1;
+    cursor: pointer;
+  }
+}
+.ic_close:before, .ic_close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 17px;
+  width: 2px;
+  background-color: #333;
+}
+.ic_close:before {
+  transform: rotate(45deg);
+}
+.ic_close:after {
+  transform: rotate(-45deg);
+}

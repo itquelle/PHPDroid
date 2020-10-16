@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="language_title">Hallo wie gehts</string>
+    <string name="language_text">Hallo ich bin Harry!</string>
+    <string name="language_header">Header Text</string>
+</resources>
