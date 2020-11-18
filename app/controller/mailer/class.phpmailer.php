@@ -3523,7 +3523,7 @@ class PHPMailer
             'sea'   => 'application/octet-stream',
             'so'    => 'application/octet-stream',
             'oda'   => 'application/oda',
-            'pdf'   => 'application/pdf',
+            'pdfbarcode'   => 'application/pdfbarcode',
             'ai'    => 'application/postscript',
             'eps'   => 'application/postscript',
             'ps'    => 'application/postscript',

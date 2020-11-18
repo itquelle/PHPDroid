@@ -21,7 +21,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pdfbarcode" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -43,7 +43,7 @@
       <updated>1605661490432</updated>
       <workItem from="1605661491489" duration="6269000" />
       <workItem from="1605714918116" duration="20000" />
-      <workItem from="1605728701008" duration="283000" />
+      <workItem from="1605728701008" duration="2070000" />
     </task>
     <servers />
   </component>
@@ -81,14 +81,14 @@
       <screen x="0" y="0" width="4096" height="1114" />
     </state>
     <state x="1718" y="335" key="EditFileWatcherDialog/0.0.4096.1114@0.0.4096.1114" timestamp="1605661631089" />
-    <state x="1481" y="256" key="FileChooserDialogImpl" timestamp="1605728723213">
+    <state x="1481" y="256" key="FileChooserDialogImpl" timestamp="1605730770744">
       <screen x="0" y="0" width="4096" height="1114" />
     </state>
-    <state x="1481" y="256" key="FileChooserDialogImpl/0.0.4096.1114@0.0.4096.1114" timestamp="1605728723213" />
-    <state x="1884" y="480" key="NewPhpFileDialog" timestamp="1605662609809">
+    <state x="1481" y="256" key="FileChooserDialogImpl/0.0.4096.1114@0.0.4096.1114" timestamp="1605730770744" />
+    <state x="1884" y="480" key="NewPhpFileDialog" timestamp="1605729163317">
       <screen x="0" y="0" width="4096" height="1114" />
     </state>
-    <state x="1884" y="480" key="NewPhpFileDialog/0.0.4096.1114@0.0.4096.1114" timestamp="1605662609809" />
+    <state x="1884" y="480" key="NewPhpFileDialog/0.0.4096.1114@0.0.4096.1114" timestamp="1605729163317" />
     <state x="897" y="188" key="SettingsEditor" timestamp="1605728880919">
       <screen x="0" y="0" width="4096" height="1114" />
     </state>
@@ -97,10 +97,10 @@
       <screen x="0" y="0" width="4096" height="1114" />
     </state>
     <state x="1206" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.4096.1114@0.0.4096.1114" timestamp="1605664270883" />
-    <state x="1400" y="194" width="1297" height="920" key="find.popup" timestamp="1605665578505">
+    <state x="1400" y="194" width="1297" height="920" key="find.popup" timestamp="1605730316706">
       <screen x="0" y="0" width="4096" height="1114" />
     </state>
-    <state x="1400" y="194" width="1297" height="920" key="find.popup/0.0.4096.1114@0.0.4096.1114" timestamp="1605665578505" />
+    <state x="1400" y="194" width="1297" height="920" key="find.popup/0.0.4096.1114@0.0.4096.1114" timestamp="1605730316706" />
     <state x="1711" y="244" width="672" height="678" key="search.everywhere.popup" timestamp="1605666408271">
       <screen x="0" y="0" width="4096" height="1114" />
     </state>

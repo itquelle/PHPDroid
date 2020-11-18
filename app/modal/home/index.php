@@ -21,6 +21,7 @@ class Home_Index implements AppCompatActivity {
             "test_var" => "Hi wie gehts?"
         ]);
 
+
     }
 
     public function __construct(...$Components){ $this->__DatabaseConstructor(); $this->__SettingsConstructor(); $this->__LanguageService(); $this->view = new ITQuelleTPL(); $this->language = $Components[1]; $this->options = $Components[2]; }

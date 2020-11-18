@@ -15,7 +15,7 @@ spl_autoload_register(function ($requireClass){
 
     $OrginalClassName = $requireClass;
 
-    if(strpos($requireClass, "Database") !== false){
+    if(strpos($requireClass, "Database") !== false) {
         require("database/index.php");
     }else {
 
