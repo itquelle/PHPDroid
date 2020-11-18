@@ -41,7 +41,7 @@ FileETag None
 DirectoryIndex index.php
 
 RewriteEngine on
-RewriteBase /
+RewriteBase /PHPDroid/
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

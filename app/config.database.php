@@ -1,9 +1,9 @@
 <?php
 define("db_config", [
-    "status"    => true,
+    "status"    => false,
     "host"      => "localhost",
     "user"      => "stevie",
-    "pass"      => "daimler",
+    "pass"      => "",
     "name"      => "baufi",
     "charset"   => "utf8",
     "port"      => "3600"
